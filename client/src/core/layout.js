@@ -1,7 +1,6 @@
 import "../App.css"
 import { Outlet, Link } from "react-router-dom";
 import Icon from '@mdi/react'
-import Nav from 'react-bootstrap/Nav'
 import { mdiFoodAppleOutline, mdiNoteTextOutline } from '@mdi/js'
 const Layout = () => {
     return (

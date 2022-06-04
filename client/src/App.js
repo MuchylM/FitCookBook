@@ -8,7 +8,7 @@ import Layout from './core/layout';
 import LayoutIngredients from './core/layout_ingredients'
 import RecipeList from "./routes/recipe-list";
 import IngredientList from "./routes/ingredient-list";
-//import Button from 'react-bootstrap/esm/Button';
+
 
 function App() {
 
