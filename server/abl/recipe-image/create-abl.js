@@ -38,11 +38,11 @@ async function CreateAbl(busboy, res) {
             return res.status(400).json({ error: `Recipe with code '${dtoIn.id}' doesn't exist.` });
         }
 
-        // omezení, že obrázek musí být ve formátu .png, aby nebylo možné nahrát jiný soubor
+        // omezení, že obrázek musí být ve formátu .png, .jpg, aby nebylo možné nahrát jiný soubor
         if (mimeType !== "image/png" && mimeType !== "image/jpeg") {
             return res.status(400).json({ error: `Only supported mimeType is image/png and image/jpeg` });
         }
-
+        
         // soubor si ukládáme pod id daného receptu pro následné snadné dohledání
         let saveTo = path.join(__dirname, "..", "..", "storage", "recipeImages", dtoIn.id + ".png");
         let writeStream = fs.createWriteStream(saveTo);

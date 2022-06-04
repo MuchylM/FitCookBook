@@ -2,40 +2,8 @@ import Button from "react-bootstrap/Button"
 import Modal from "react-bootstrap/Modal"
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
-import { useState, useEffect } from "react"
-import UnverifiedRecipeTile from '../bricks/unverified-recipe-tile';
 
-const RecipeVerify = (props) => {
-    const [verifyData, setVerifyData] = useState({});
-    const [unverifiedRecipeList, setUnverifiedRecipeList] = useState();
-    
-    useEffect(() => {
-        fetch('/recipe/listUnverified')
-        .then(response => response.json())
-        .then(data => setUnverifiedRecipeList(data))
-    }, []);
-    
-    
-    function getUnverifiedRecipeHtmlList() {
-        const unverifiedRecipeHtmlList = [];
-        unverifiedRecipeList.forEach(recipe => {
-            unverifiedRecipeHtmlList.push(<UnverifiedRecipeTile recipe={recipe}/>)
-        })
-        return unverifiedRecipeHtmlList;
-    }
-
-    function getUnverifiedChild() {
-        let child;
-        if (!unverifiedRecipeList) {
-            child = "loading";
-        } else if (unverifiedRecipeList) {
-            child = getUnverifiedRecipeHtmlList();
-        }
-        return child;
-    }
-
-   
-
+const RecipeVerify = (props) => {    
     return (
         <Modal show={!!props.verifyShow} onHide={() => props.setVerifyShow(false)} size="lg">
             <Modal.Header closeButton>
@@ -44,7 +12,7 @@ const RecipeVerify = (props) => {
             <Modal.Body>
                 <Col>
                     <Row xs={1} md={4} className="g-4">
-                    {getUnverifiedChild()}
+                    {props.getUnverifiedChild()}
                     </Row>
                 </Col>
             </Modal.Body>

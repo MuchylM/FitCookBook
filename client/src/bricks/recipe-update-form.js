@@ -10,11 +10,11 @@ const RecipeUpdateForm = (props) => {
 
     function getIngredientOptionList() {
         const result = [
-            <option>Select ingredient</option>
+            <option key="placeholder">Select ingredient</option>
         ];
         if (props.ingredientList) {
             props.ingredientList.forEach(ingredient => {
-                result.push(<option value={ingredient.id}>{ingredient.name}</option>)
+                result.push(<option key={ingredient.id} value={ingredient.id}>{ingredient.name}</option>)
             })
         }
         return result;

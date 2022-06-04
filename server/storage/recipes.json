@@ -1106,49 +1106,5 @@
     "image": "Shrimp_and_rice_salad.jpg",
     "id": "72dc70bd12a0",
     "status": "Verified"
-  },
-  {
-    "ingredientsList": [
-      {
-        "name": "Onion",
-        "unitOfMeasurement": "pcs",
-        "healthyIngredient": true,
-        "amount": 334
-      },
-      {
-        "name": "English bacon",
-        "unitOfMeasurement": "g",
-        "healthyIngredient": false,
-        "amount": 38
-      }
-    ],
-    "method": "zhtgrf",
-    "image": "bztvrc",
-    "name": "tgrfčd",
-    "numberOfPortions": 2,
-    "id": "d9e2009efb04",
-    "status": "Unverified"
-  },
-  {
-    "name": "ujzhtgrf",
-    "numberOfPortions": 3,
-    "ingredientsList": [
-      {
-        "name": "Asparagus",
-        "unitOfMeasurement": "g",
-        "healthyIngredient": true,
-        "amount": 0
-      },
-      {
-        "name": "Onion",
-        "unitOfMeasurement": "pcs",
-        "healthyIngredient": true,
-        "amount": 5
-      }
-    ],
-    "method": "nbztvcrd",
-    "image": "nbgvrf",
-    "id": "9e6785dae671",
-    "status": "Unverified"
   }
 ]

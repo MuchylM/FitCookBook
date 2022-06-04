@@ -69,7 +69,7 @@ const RecipeForm = (props) => {
         createRecipe(outputData)
         setCreateIngredient({})
         setFormShow(false)
-        
+        props.setHandleVerify((current) => current = !current)
     }
 
     return (
@@ -122,7 +122,7 @@ const RecipeForm = (props) => {
                                     <option>Loading Ingredients...</option>
                                 ) : (
                                     ingredients.map((item, idx) => {
-                                        return <option>{item.name}</option>
+                                        return <option key={item.name}>{item.name}</option>
                                     })
                                 )}
                             </>
@@ -236,6 +236,7 @@ const RecipeForm = (props) => {
                             onChange={(e) => setOutputData({ ...outputData, method: e.target.value })}
                         />
                     </Form.Group>
+                    &nbsp;
                     <Form.Group>
                         <Form.Label>Image</Form.Label>
                         <Form.Control

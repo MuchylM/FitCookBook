@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { useState } from 'react';
+import { useState } from 'react';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -10,13 +10,15 @@ import RecipeList from "./routes/recipe-list";
 import IngredientList from "./routes/ingredient-list";
 
 
+
 function App() {
+  const [handleVerify, setHandleVerify] = useState(false);
 
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<RecipeList />} />
+          <Route index element={<RecipeList handleVerify={handleVerify} setHandleVerify={setHandleVerify} />} />
         </Route>
         <Route path="/ingredients" element={<LayoutIngredients />}>
           <Route index element={<IngredientList />} />

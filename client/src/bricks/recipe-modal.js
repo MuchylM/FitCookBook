@@ -7,7 +7,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import { useState } from "react"
 
 const RecipeModal = (props) => {
-    const [modalData, setModalData] = useState({});
+    const [modalData, setModalData] = useState({numberOfPortions:1});
     function getIngredientList() {
         const result = [];
         if (props.modalShow.ingredientsList) {

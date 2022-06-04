@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button"
 
 
 const UnverifiedRecipeTile = (props) => {
-
+    
     function verifyRecipe(id, status){
         let payload = {"id" : id, "verificationStatus" : status};
         fetch("/recipe/verify", {
@@ -31,7 +31,7 @@ const UnverifiedRecipeTile = (props) => {
                 </Card.Body>
                 <Card.Footer>
                     <Row>
-                    <Button variant="success" onClick={() => verifyRecipe(props.recipe.id, true)}>Verify</Button>
+                    <Button variant="success" onClick={() => {verifyRecipe(props.recipe.id, true); props.setHandleVerify((current) => current = !current)}}>Verify</Button>
                     </Row>
                     <Row>
                     <Button variant="danger"onClick={() => verifyRecipe(props.recipe.id, false)}>Discard</Button>

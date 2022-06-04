@@ -1,7 +1,7 @@
 import '../App.css';
-
 import { useEffect, useMemo, useState } from "react";
 import RecipeTile from "../bricks/recipe-tile";
+import UnverifiedRecipeTile from "../bricks/unverified-recipe-tile";
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
@@ -15,7 +15,7 @@ import RecipeVerify from '../bricks/recipe-verify';
 
 
 
-const RecipeList = () => {
+const RecipeList = (props) => {
     const [recipeList, setRecipeList] = useState();
     const [ingredientList, setIngredientList] = useState();
     const [filterData, setFilterData] = useState({filter:""});
@@ -24,6 +24,7 @@ const RecipeList = () => {
     const [modalShow, setModalShow] = useState(false);
     const [updateFormShow, setUpdateFormShow] = useState(false);
     const [verifyShow, setVerifyShow] = useState(false);
+    const [unverifiedRecipeList, setUnverifiedRecipeList] = useState();
 
     useEffect(() => {
         fetch('/recipe/list')
@@ -33,7 +34,39 @@ const RecipeList = () => {
         fetch('/ingredient/list')
             .then(response => response.json())
             .then(data => setIngredientList(data))
-    }, [])
+    }, [props.handleVerify])
+
+    useEffect(() => {
+        fetch('/recipe/listUnverified')
+        .then(response => response.json())
+        .then(data => setUnverifiedRecipeList(data))
+    }, [props.handleVerify]);
+
+    function getUnverifiedRecipeHtmlList() {
+        const unverifiedRecipeHtmlList = [];
+        unverifiedRecipeList.forEach(recipe => {
+            unverifiedRecipeHtmlList.push(<UnverifiedRecipeTile
+                key={recipe.id}
+                recipe={recipe}
+                handleVerify={props.handleVerify} 
+                setHandleVerify={props.setHandleVerify} />)
+        })
+        return unverifiedRecipeHtmlList;
+    }
+
+    function getUnverifiedChild() {
+        let child;
+        if (!unverifiedRecipeList) {
+            child = "loading";
+        } else if (unverifiedRecipeList) {
+            child = getUnverifiedRecipeHtmlList();
+        }
+        return child;
+    }
+
+    {console.log(unverifiedRecipeList)}
+
+    
 
     const ingredientMap = useMemo(() => {
         if (ingredientList) {
@@ -42,19 +75,32 @@ const RecipeList = () => {
             return result;
         }
     }, [ingredientList])
+    
 
     function getRecipeHtmlList(filter, ingredientFilter) {
         const recipeHtmlList = [];
         if(filter === "" && ingredientFilter === ""){
             recipeList.forEach(recipe => {
-                recipeHtmlList.push(<RecipeTile recipe={recipe} ingredientMap={ingredientMap} setModalShow={setModalShow} setUpdateFormShow={setUpdateFormShow} setVerifyShow={setVerifyShow}/>)
+                recipeHtmlList.push(<RecipeTile
+                    key={recipe.id} 
+                    recipe={recipe} 
+                    ingredientMap={ingredientMap} 
+                    setModalShow={setModalShow} 
+                    setUpdateFormShow={setUpdateFormShow} 
+                    setVerifyShow={setVerifyShow}/>)
             })
             return recipeHtmlList;
         }
         if(filter !== "" && ingredientFilter === ""){
         recipeList.forEach(recipe => {
             if(recipe.name.toLowerCase().includes(filter.toLowerCase())){
-                recipeHtmlList.push(<RecipeTile recipe={recipe} ingredientMap={ingredientMap} setModalShow={setModalShow} setUpdateFormShow={setUpdateFormShow} setVerifyShow={setVerifyShow}/>)
+                recipeHtmlList.push(<RecipeTile
+                    key={recipe.id}
+                    recipe={recipe} 
+                    ingredientMap={ingredientMap} 
+                    setModalShow={setModalShow} 
+                    setUpdateFormShow={setUpdateFormShow} 
+                    setVerifyShow={setVerifyShow}/>)
             }
         })
         return recipeHtmlList;
@@ -63,7 +109,13 @@ const RecipeList = () => {
         recipeList.forEach(recipe => {
             recipe.ingredientsList.forEach(ingredient => {
                 if(ingredient.name.toLowerCase().includes(ingredientFilter.toLowerCase())){
-                    recipeHtmlList.push(<RecipeTile recipe={recipe} ingredientMap={ingredientMap} setModalShow={setModalShow} setUpdateFormShow={setUpdateFormShow} setVerifyShow={setVerifyShow}/>)
+                    recipeHtmlList.push(<RecipeTile
+                        key={recipe.id}
+                        recipe={recipe} 
+                        ingredientMap={ingredientMap} 
+                        setModalShow={setModalShow} 
+                        setUpdateFormShow={setUpdateFormShow} 
+                        setVerifyShow={setVerifyShow}/>)
             }})})
         return recipeHtmlList;
         }
@@ -82,10 +134,10 @@ const RecipeList = () => {
 
     return (
         <>
-            <RecipeForm formShow={formShow} setFormShow={setFormShow} ingredientList={ingredientList} setRecipeList={setRecipeList}/>
+            <RecipeForm formShow={formShow} setFormShow={setFormShow} ingredientList={ingredientList} setRecipeList={setRecipeList} handleVerify={props.handleVerify} setHandleVerify={props.setHandleVerify}/>
             <RecipeUpdateForm updateFormShow={updateFormShow} setUpdateFormShow={setUpdateFormShow} ingredientList={ingredientList} setRecipeList={setRecipeList}/>
             <RecipeModal modalShow={modalShow} setModalShow={setModalShow} setUpdateFormShow={setUpdateFormShow} ingredientList={ingredientList} setRecipeList={setRecipeList}/>
-            <RecipeVerify verifyShow={verifyShow} setVerifyShow={setVerifyShow} ingredientList={ingredientList} setRecipeList={setRecipeList} />
+            <RecipeVerify verifyShow={verifyShow} setVerifyShow={setVerifyShow} ingredientList={ingredientList} setRecipeList={setRecipeList} handleVerify={props.handleVerify} setHandleVerify={props.setHandleVerify} getUnverifiedChild={getUnverifiedChild}/>
             <Row>
             <Col className="mb-1 mt-1 px-3 py-2">
                 <Button variant="success" onClick={() => setFormShow(true)}>
@@ -94,7 +146,7 @@ const RecipeList = () => {
                     Create Recipe
                 </Button>
                 &nbsp; 
-                <Button variant="success" onClick={() => setVerifyShow(true)}>
+                <Button variant="success" onClick={() => {setVerifyShow(true); props.setHandleVerify((current) => current = !current)}}>
                     <Icon path={mdiCheck} size={1} />
                     &nbsp;
                     Verify Recipe
@@ -135,6 +187,7 @@ const RecipeList = () => {
             </Row>
             <Row xs={1} md={4} className="g-4">
                 {getChild(filterData.filter, ingredientFilter.filter)}
+                
             </Row>
         </>
     )
