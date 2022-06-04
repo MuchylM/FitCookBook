@@ -1,0 +1,98 @@
+.on {
+  color: green;
+  background-color: red;
+}
+
+.off {
+  color: red;
+  background-color: green;
+}
+
+.page {
+  max-height: 100vh;
+}
+
+.content {
+  height: calc(100vh - 48px);
+  overflow: auto;
+}
+
+.layout {
+  padding: 4px 8px;
+  background-color: lightblue;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.myRouteButton {
+  padding: 4px 12px 4px 8px;
+  background-color: white;
+  border: solid 1px grey;
+  border-radius: 4px;
+  text-decoration: none;
+  display: flex;
+  color: grey;
+}
+
+.myLogo {
+  padding: 4px 12px 4px 8px;
+  background-color: lightgreen;
+  border: solid 1px grey;
+  border-radius: 4px;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+  color: white;
+}
+
+.recipeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.recipeTile {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

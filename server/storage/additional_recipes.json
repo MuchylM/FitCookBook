@@ -1,0 +1,881 @@
+[
+    {
+      "name": "Shrimp and Rice Salad",
+      "numberOfPortions": 6,
+      "ingredientsList": [
+        {
+          "amount": 5,
+          "name": "Jumbo shrimp",
+          "unitOfMeasurement": "pcs",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 300,
+          "name": "Rice",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 280,
+          "name": "Celery",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 150,
+          "name": "Green bell peppers",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 170,
+          "name": "Chestnuts",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 280,
+          "name": "Green peas",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 180,
+          "name": "Mayonnaise",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 10,
+          "name": "Soy sauce",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 5,
+          "name": "Curry powder",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        }
+      ],
+      "Method": "Prepare first five ingredients. Combine with water chestnuts and thawed peas. Mix mayonnaise, soy sauce and curry powder. Stir into other mixture. Chill. Serve on green leafy lettuce.",
+      "Image": "Shrimp_and_rice_salad.jpg",
+      "id": ""
+    },
+    {
+      "name": "Asparagus Vinaigrette",
+      "numberOfPortions": 2,
+      "ingredientsList": [
+        {
+          "amount": 240,
+          "name": "Asparagus",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 30,
+          "name": "Vinaigrette Dressing",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 350,
+          "name": "Lettuce",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        }
+      ],
+      "Method": "Cook fresh asparagus as desired, drain, or open  cans of asparagus and drain. Lay asparagus in a single layer in a shallow dish. Pour vinaigrette dressing over asparagus.  Chill. Serve on lettuce cups as a salad.",
+      "Image": "Asparagus_vinaigrette.jpg",
+      "id": ""
+    },
+    {
+      "name": "Aztec Taco Salad",
+      "numberOfPortions": 4,
+      "ingredientsList": [
+        {
+          "amount": 1000,
+          "name": "Ground beef",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 10,
+          "name": "Chilli powder",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 10,
+          "name": "Ground cumin",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 1,
+          "name": "Avocado",
+          "unitOfMeasurement": "pc",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 1,
+          "name": "Pepper",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 1,
+          "name": "Salt",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 10,
+          "name": "Lemon juice",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 150,
+          "name": "Lettuce",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 100,
+          "name": "Onion",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 120,
+          "name": "Cheddar cheese",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 80,
+          "name": "Taco sauce",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 160,
+          "name": "Cherry tomatoes",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 90,
+          "name": "Green chilli peppers",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 15,
+          "name": "Oil",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 250,
+          "name": "Tortilla chips",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 20,
+          "name": "Sour cream",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        }
+      ],
+      "Method": "Salad:  in a medium skillet cook beef until brown, stirring to break up meat.  Drain off drippings and stir in chili powder, cumin and 1/2 teaspoon salt.  Cook over low heat, stirring 3 minutes. Col.  Place avocado in bowl. sprinkle with lemon juice and remaining 1/4 teaspoon salt.  Prepare remaining ingredients for salad, set aside.  in small bowl combine all ingredients for dressing. To serve arrange in concentric circles, lettuce green onion meat  cheese, avocado and tomatoes.  Sprinkle chips on top of salad.  Serve immediately with dressing and a dollop of sour cream.  Makes 6 servings.NOTES : You can place avocado in center of serving platter, around this put tomatoes, then aroung tomatoes put mat, then aroung meat cheese and aroung cheese put lettude, green onions in one ring.  Put some chips on outside of lettuce and green onio s.  In one dish put dressing and one dish of sour cream",
+      "Image": "Aztec_Taco_Salad.jpg",
+      "id": ""
+    },
+    {
+      "name": "Ensalada Zucchini",
+      "numberOfPortions": 6,
+      "ingredientsList": [
+        {
+          "amount": 600,
+          "name": "Zucchini",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 5,
+          "name": "Salt",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 120,
+          "name": "Water",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 20,
+          "name": "Garlic salt",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 100,
+          "name": "Green bell pepper",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 10,
+          "name": "Sugar",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 15,
+          "name": "Pepper",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 90,
+          "name": "Onion",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 60,
+          "name": "Basil",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 40,
+          "name": "White wine vinegar",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 15,
+          "name": "Oil",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 1,
+          "name": "Avocado",
+          "unitOfMeasurement": "pc",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 90,
+          "name": "Olives",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        }
+      ],
+      "Method": "Scrub zucchini; cut off stem ends and cut into 1 inch thick slices. Cook in salted water for 5 to 7 minutes until crisp cooked.  Drain. Combine next 8 ingredients in a jar; shake to blend well. Pour over zucchini and marinate several hours or overnight. Drain off dressing and save. Peel and slice avocado. Line a plate with lettuce.  Arrange zucchini, avocado and olives on lettuce.",
+      "Image": "Ensalada_Zucchini.jpg",
+      "id": ""
+    },
+    {
+      "name": "Cucumbers in Sour Cream",
+      "numberOfPortions": 1,
+      "ingredientsList": [
+        {
+          "amount": 100,
+          "name": "White wine vinegar",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 100,
+          "name": "Water",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 15,
+          "name": "Sugar",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 1,
+          "name": "Salt",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 4,
+          "name": "Peppercorns",
+          "unitOfMeasurement": "pc",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 5,
+          "name": "Cucumber",
+          "unitOfMeasurement": "pc",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 20,
+          "name": "Sour cream",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        }
+      ],
+      "Method": "Combine vinegar, water, sugar, salt and peppercorns. Thinly slice cucumbers and marinate in vinegar mixture 3 to 3 hours.  Stir occasionally.. Drain. Gently mix cucumbers with sour cream and salt to taste",
+      "Image": "Cucumbers_in_sour_cream.jpg",
+      "id": ""
+    },
+    {
+      "name": "Iceberg Coleslaw",
+      "numberOfPortions": 4,
+      "ingredientsList": [
+        {
+          "amount": 250,
+          "name": "Lettuce",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 100,
+          "name": "Cider vinegar",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 15,
+          "name": "Sugar",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 15,
+          "name": "Flour",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 20,
+          "name": "Mustard",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 3,
+          "name": "Egg",
+          "unitOfMeasurement": "pc",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 50,
+          "name": "Heavy cream",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 130,
+          "name": "Tomato",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        }
+      ],
+      "Method": "Core, rinse and thoroughly drain lettuce; chill in disposable plastic bag or plastic crisper. Heat vinegar to boiling. In separate bowl, combine sugar, flour, mustard and salt.  Add eggs and beat just until blended. Stir in a little hot vinegar, then add mixture to remaining vinegar.   cook over low heat, stirring constantly until thickened, about 5 minutes. Stir in cream; chill. At serving time, cut head of lettuce lengthwise into halves; place cut-sides down on board and slice crosswise with thin-blade knife.  (1 head lettuce will yield about 4 cups shredded lettuce.) Place in serving bowl and toss with dressing. Serve with sliced tomatoes, is desired.",
+      "Image": "Iceberg_Coleslaw.jpg",
+      "id": ""
+    },
+    {
+      "name": "Hot Corn Salad",
+      "numberOfPortions": 1,
+      "ingredientsList": [
+        {
+          "amount": 150,
+          "name": "Corn",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 100,
+          "name": "Green bell pepper",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 100,
+          "name": "Red bell pepper",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 80,
+          "name": "Scallion",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 10,
+          "name": "Pepper",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 15,
+          "name": "Salt",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 20,
+          "name": "Oil",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        }
+      ],
+      "Method": "Strip fresh corn then boil briefly, then refresh in cold water to stop the cooking.  Cut off the kernels - about 3 cups.Film a large frying pan with olive oil and saute diced green and red peppers over moderate heat with scallions (trimmed and sliced on the bias).  When barely tender, season and set aside.Peel carrots; shave 3 strips from each side with a vegetable peeler and drop then into a bowl of ice and water so they will from curls.The remains of the carrots, flat after their shaving, are seasoned with salt and pepper and slowly cooked in olive oil in a covered pan until just tender.Shortly before serving, reheat the carrot pieces.  fold the corn kernels into the pepper mixture, add a little fresh oil and heat through.  Correct seasoning and turn into a platter, surround with the carrot curls, and serve.",
+      "Image": "Hot_Corn_Salad.jpg",
+      "id": ""
+    },
+    {
+      "name": "Grilled Glazed Tuna Steaks",
+      "numberOfPortions": 4,
+      "ingredientsList": [
+        {
+          "amount": 150,
+          "name": "Dry Sherry",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 90,
+          "name": "Gingerroot",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 10,
+          "name": "Soy sauce",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 40,
+          "name": "Honey",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 4,
+          "name": "Garlic",
+          "unitOfMeasurement": "clove(s)",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 900,
+          "name": "Tuna",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        }
+      ],
+      "Method": "Combine Sherry, Gingerroot, Soy Sauce, Honey & Garlic in A 1 Cup Glass Measure.  Microwave Uncovered At High 1 Min. OR Until Mixture Boils. Cool Slightly. Place Tuna in An 11 X 7 X 1 1/2 in. Baking Dish. Pour Marinade over tuna.  Cover & Chill 2 Hours.  Remove Tuna From Marinade, Reserving Marinade. Preheat A 10 Inch. Browning Skillet At High For 8 Min. Arrange Tuna On Hot Browning Skillet With Thickest Portions To The Outside. Microwave Uncovered At High For 2 Min. Turn Steaks Over & Baste With Marinade.  Microwave At High For 1 1/2 To 2 Min. Let Stand Covered 2 Min. Serve Immediately With Warm Marinade. (May Also Grill Outdoors.)",
+      "Image": "Grilled_tuna_steaks.jpg",
+      "id": ""
+    },
+    {
+      "name": "Baked Catfish Fillets With Horseradish Sauce",
+      "numberOfPortions": 4,
+      "ingredientsList": [
+        {
+          "amount": 1000,
+          "name": "Catfish fillets",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+         {
+          "amount": 10,
+          "name": "Lemon juice",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        },
+         {
+          "amount": 60,
+          "name": "Egg white",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 20,
+          "name": "Sour cream",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 60,
+          "name": "Onion",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 20,
+          "name": "Mustard",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 10,
+          "name": "Pepper",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 80,
+          "name": "Butter",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 1,
+          "name": "Garlic",
+          "unitOfMeasurement": "clove(s)",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 90,
+          "name": "Milk",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 70,
+          "name": "Horseradish",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 15,
+          "name": "Flour",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        }
+      ],
+      "Method": "Arrange fish on baking pan sprayed with nonstick cooking spray. Sprinkle with lemon juice.  In small bowl beat egg whites until soft peaks form. Fold in sour cream, onion, garlic, mustard and 1/8 teaspoon white pepper. Spoon some of mixture on top of each fillet. Bake at 375F for 20 minutes or until fish is opaque or skewer glides easily through flesh.  Meanwhile in small saucepan melt butter.  Blend in flour until smooth.  Stir in milk, horseradish and remaining 1/8 teaspoon white pepper.  Cook and stir over medium heat until mixture is bubbly and slightly thickened.  Serve over fish.",
+      "Image": "Baked_Catfish_Fillets_With_Horseradish_Sauce.jpg",
+      "id": ""
+    },
+    {
+      "name": "Fast Cat Broil",
+      "numberOfPortions": 6,
+      "ingredientsList": [
+        {
+          "amount": 1400,
+          "name": "Catfish fillets",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+         {
+          "amount": 15,
+          "name": "Soy sauce",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+         {
+          "amount": 20,
+          "name": "Ground ginger",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 1,
+          "name": "Lemon",
+          "unitOfMeasurement": "pc",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 6,
+          "name": "Garlic",
+          "unitOfMeasurement": "clove(s)",
+          "healthyIngredient": true
+        }
+      ],
+      "Method": "Thaw frozen fillets. Place fillets in a single layer, skinned side down, on a bake and serve platter, 16x10 inches. Combine French dressing, soy sauce and ginger.  Pour sauce over fillets and let stand 10 minutes. Broil about 4 from source of heat for 10 to 15 minutes or until fillets flake easily when tested with a fork. Baste once during broiling with sauce in pan. Garnish with lime slices.",
+      "Image": "Fast_Cat_Broil.jpg",
+      "id": ""
+    },
+    {
+      "name": "Dilly Trout",
+      "numberOfPortions": 8,
+      "ingredientsList": [
+        {
+          "amount": 2000,
+          "name": "Trout",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+         {
+          "amount": 15,
+          "name": "Salt",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+         {
+          "amount": 20,
+          "name": "Pepper",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 60,
+          "name": "Butter",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 20,
+          "name": "Dill",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 20,
+          "name": "Lemon juice",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        }
+      ],
+      "Method": "Thaw frozen fish. Clean, wash, and dry fish. Cut fish almost through lengthwise and spread open. Sprinkle with salt and pepper. Melt butter in a 10 inch fry pan.  Add dill weed. Place fish in a single layer, flesh side down, in the hot dill butter. Fry at moderate heat for 2 to 3 minutes.  Turn carefully.  Fry 2 to 3 minutes longer or until fish flake easily when tested with a fork. Place fish on a warm serving platter.  Keep warm. When all the fish have been fried, turn heat very low and stir in lemon juice.  Pour sauce over fish.",
+      "Image": "Dilly_trout.jpg",
+      "id": ""
+    },
+    {
+      "name": "Lamb with Cashew-Nut Curry",
+      "numberOfPortions": 4,
+      "ingredientsList": [
+        {
+          "amount": 150,
+          "name": "Cashew",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+         {
+          "amount": 90,
+          "name": "Red chilli peppers",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+         {
+          "amount": 20,
+          "name": "Cinnamon",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 40,
+          "name": "Gingerroot",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 40,
+          "name": "Cardamom",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 20,
+          "name": "Dill",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 4,
+          "name": "Garlic",
+          "unitOfMeasurement": "clove(s)",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 30,
+          "name": "Poppy seeds",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 30,
+          "name": "Coriander",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 30,
+          "name": "Poppy seeds",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 15,
+          "name": "Ground cumin",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 5,
+          "name": "Saffron",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 35,
+          "name": "Ghee",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 90,
+          "name": "Onion",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 10,
+          "name": "Salt",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 120,
+          "name": "White yoghurt",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 1000,
+          "name": "Lamb",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 100,
+          "name": "Water",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": true
+        }
+      ],
+      "Method": "To make the masala, combine the cashews, chilies, ginger and the cold water and blend at high speed for 1 minutes. Add the cinnamon, cardamom, cloves, garlic, poppy seeds, coriander seeds and cumin. Blend again until the mixture is completely pulverized. Set the masala aside. Place the saffron in a small bowl, pour in boiling water and let soak for at least 10 minutes. In a heavy skillet heat the ghee over moderate heat until a drop of water flicked into it sputters instantly. Add the onions and, stirring constantly, fry for 7 or 8 minutes, until soft and golden brown. Stir in the salt and the masala, then add the yoghurt. Stirring occasionally, cook over moderate heat until the ghee lightly films the surface. Add the lamb, turning it about with a spoon to coat the pieces evenly. Squeeze the saffron between your fingers, thin stir it and its soaking liquid into the skillet. Reduce the heat to low, cover tightly, and cook for 20 minutes, turning the lamb cubes over from time to time. Scatter 1/2 of the fresh riander over the lamb and continue cooking, tightly covered for 10 minutes more, or until the lamb is tender. To serve, transfer the entire contents of the skillet to a heated platter, and sprinkle the top with lemon juice and the remaining fresh coriander.",
+      "Image": "Lamb_with_Cashew-Nut_Curry.jpg",
+      "id": ""
+    },
+     {
+      "name": "Macadamia Nut Rice",
+      "numberOfPortions": 2,
+      "ingredientsList": [
+        {
+          "amount": 200,
+          "name": "Macadamia nuts",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 100,
+          "name": "Red chilli peppers",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 60,
+          "name": "Butter",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 25,
+          "name": "Rice",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 25,
+          "name": "Parsley",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 20,
+          "name": "Parmesan cheese",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        }
+      ],
+      "Method": "Cook nuts with pepper flakes in butter in large skillet over medium-high heat until nuts are lightly browned. Add rice, cheese and parsley; stir until thoroughly heated.",
+      "Image": "Macadamia_Nut_Rice.jpg",
+      "id": ""
+    },
+    {
+      "name": "Polenta Pie with Fresh Mushrooms and Spinach",
+      "numberOfPortions": 4,
+      "ingredientsList": [
+        {
+          "amount": 200,
+          "name": "Mushrooms",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 15,
+          "name": "Oil",
+          "unitOfMeasurement": "ml",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 150,
+          "name": "Pesto",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 250,
+          "name": "Polenta",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        }
+      ],
+      "Method": "Preheat oven to 375 degrees. Lightly coat a 9-inch pie plate with butter or nonstick cooking spray. Trim mushrooms; cut into thin slices. In a large nonstick skillet, heat over high heat until hot. Add mushrooms; cook and stir until tender and lightly browned, about 10 minutes. Remove 1 cup of the mushrooms to a small bowl; stir in 1 tablespoon of the Parmigiano-Reggiano; set aside. Into mushrooms remaining in skillet, stir in spinach and pesto; cook until hot, about 2 minutes. Cook polenta according to package directions. Remove from heat; stir in the remaining 7 tablespoons of cheese. Spread half of the polenta in the prepared pie plate. Spoon the mushroom-spinach mixture over the polenta; with a knife, spread the remaining polenta on top; top with the remaining mushroom-Parmiagiano mixture. Bake, uncovered until heated through, about 10 minutes. Remove from oven and let stand 5 minutes; cut into wedges.",
+      "Image": "Polenta_Pie_with_Fresh_Mushrooms_and_Spinach.jpg",
+      "id": ""
+    },
+    {
+      "name": "Baked Acorn Squash",
+      "numberOfPortions": 2,
+      "ingredientsList": [
+        {
+          "amount": 250,
+          "name": "Acorn squash",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": true
+        },
+        {
+          "amount": 150,
+          "name": "Butter",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 150,
+          "name": "Sugar",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        },
+        {
+          "amount": 5,
+          "name": "Salt",
+          "unitOfMeasurement": "g",
+          "healthyIngredient": false
+        }
+      ],
+      "Method": "Preheat oven to 375 degrees. Lightly coat a 9-inch pie plate with butter or nonstick cooking spray. Trim mushrooms; cut into thin slices. In a large nonstick skillet, heat over high heat until hot. Add mushrooms; cook and stir until tender and lightly browned, about 10 minutes. Remove 1 cup of the mushrooms to a small bowl; stir in 1 tablespoon of the Parmigiano-Reggiano; set aside. Into mushrooms remaining in skillet, stir in spinach and pesto; cook until hot, about 2 minutes. Cook polenta according to package directions. Remove from heat; stir in the remaining 7 tablespoons of cheese. Spread half of the polenta in the prepared pie plate. Spoon the mushroom-spinach mixture over the polenta; with a knife, spread the remaining polenta on top; top with the remaining mushroom-Parmiagiano mixture. Bake, uncovered until heated through, about 10 minutes. Remove from oven and let stand 5 minutes; cut into wedges.",
+      "Image": "Baked_Acorn_Squash.jpg",
+      "id": ""
+    }
+  ]
