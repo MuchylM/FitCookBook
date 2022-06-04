@@ -8,6 +8,9 @@ const LayoutIngredients = () => {
         <div className="page">
             <nav>
                 <div className="layout">
+                    <Link to="/" className="myLogo">
+                        FitCookBook
+                    </Link>
                     <Link to="/" className="myRouteButton">
                         <Icon
                             path={mdiNoteTextOutline}

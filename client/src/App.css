@@ -8,6 +8,10 @@
   background-color: green;
 }
 
+.small-font{
+  font-size: 15px;
+}
+
 .page {
   max-height: 100vh;
 }
@@ -43,6 +47,12 @@
   align-items: center;
   text-decoration: none;
   display: flex;
+  position: fixed;
+  left: 5px;
+  color: white;
+}
+
+.myLogo:hover{
   color: white;
 }
 

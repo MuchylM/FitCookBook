@@ -58,7 +58,7 @@
         "healthyIngredient": true
       }
     ],
-    "method": "Vajíčka si vyklepneme do většího hrnku, osolíme si je a rozšleháme. Na olivovém oleji osmažíme nakrájenou cibuli, bílou část z lahůdkové cibulky a přidáme trochu nahrubo nakrájenou anglickou slaninu. Až se slanina pěkně opeče, tak zalijeme připravenýma vajíčky, přidáme hořčici, pepř, možná ještě přisolíme dle chuti a stále mícháme, aby se nám nepřipalovaly a smažíme je tak dlouho, jak je máme rádi tuhé a ke konci nasypeme nakrájenou zelenou část lahůdkové cibulky. Připravené porce posypem strouhaným sýrem a můžeme přidat ještě pažitku.",
+    "method": "In a small nonstick pan over medium heat, melt butter (or heat oil). Crack egg into pan and stir it. Cook 3 minutes, or until white is set. Remove from pan and season with salt, pepper and chives. ",
     "image": "fried_eggs_image.jpg",
     "id": "80cfcd6b15f1",
     "status": "Verified"
@@ -104,7 +104,7 @@
         "healthyIngredient": false
       }
     ],
-    "method": "Knedlíky nakrájíme na kostky o hraně 1 cm. Vejce rozklepneme do misky a vidličkou je rozšleháme. Osolíme a opepříme. Na pánvi zpěníme na středním ohni máslo, přidáme knedlíky a opékáme je 1 minutu. Přidáme nakrájenou cibuli, promícháme a za občasného míchání necháme knedlíky opéct dozlatova. Přilijeme rozšlehaná vejce, důkladně promícháme a pánev stáhneme z ohně. Již mimo oheň knedlíky s vejci opět promícháme. Vejce dojdou díky teplotě pánve i mimo oheň a pokrm zůstane vláčný. Pokrm případně dochutíme solí a čerstvě mletým pepřem.",
+    "method": "STEP 1: Cube the slices of dumplings into 1-inch pieces. STEP 2: In a pan, melt butter over medium heat. Throw in the dumplings and fry until golden. Stir occasionally so that the dumplings get a nice golden crust from all sides. STEP 3: Add eggs, season with salt, and gently stir until creamy, do not overcook them. Set the pan aside and serve immediately. ",
     "image": "egg_and_bread_dumplings_image.jpg",
     "id": "bc8d7461dec9",
     "status": "Verified"
@@ -1108,25 +1108,47 @@
     "status": "Verified"
   },
   {
-    "name": "fff",
+    "ingredientsList": [
+      {
+        "name": "Onion",
+        "unitOfMeasurement": "pcs",
+        "healthyIngredient": true,
+        "amount": 334
+      },
+      {
+        "name": "English bacon",
+        "unitOfMeasurement": "g",
+        "healthyIngredient": false,
+        "amount": 38
+      }
+    ],
+    "method": "zhtgrf",
+    "image": "bztvrc",
+    "name": "tgrfčd",
+    "numberOfPortions": 2,
+    "id": "d9e2009efb04",
+    "status": "Unverified"
+  },
+  {
+    "name": "ujzhtgrf",
     "numberOfPortions": 3,
     "ingredientsList": [
       {
-        "name": "Egg",
-        "unitOfMeasurement": "pcs",
-        "healthyIngredient": true,
-        "amount": 3
-      },
-      {
-        "name": "FFF",
+        "name": "Asparagus",
         "unitOfMeasurement": "g",
         "healthyIngredient": true,
-        "amount": 4
+        "amount": 0
+      },
+      {
+        "name": "Onion",
+        "unitOfMeasurement": "pcs",
+        "healthyIngredient": true,
+        "amount": 5
       }
     ],
-    "method": "afafafda",
-    "image": "adfaffg",
-    "id": "f666890e3666",
+    "method": "nbztvcrd",
+    "image": "nbgvrf",
+    "id": "9e6785dae671",
     "status": "Unverified"
   }
 ]

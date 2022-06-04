@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
 import Form from 'react-bootstrap/Form'
+import Row from 'react-bootstrap/Row'
 import { useState, useEffect } from 'react'
 import ModalHeader from 'react-bootstrap/esm/ModalHeader'
 
@@ -66,14 +67,18 @@ const RecipeForm = (props) => {
 
     const handleSaveChanges = () => {
         createRecipe(outputData)
-        setFormShow(false)
         setCreateIngredient({})
+        setFormShow(false)
+        
     }
 
     return (
         <Modal show={!!formShow} onHide={() => setFormShow(false)}>
             <ModalHeader closeButton>
+                <Row>
                 <Modal.Title>Create Recipe</Modal.Title>
+                <p className="small-font">Recipe must contain at least ONE healthy ingredient</p>
+                </Row>   
             </ModalHeader>
             <Modal.Body>
                 <Form>
