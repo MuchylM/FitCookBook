@@ -642,12 +642,5 @@
     "healthyIngredient": true,
     "id": "bc5354e24d",
     "status": "Discarded"
-  },
-  {
-    "name": "FFF",
-    "unitOfMeasurement": "g",
-    "healthyIngredient": true,
-    "id": "8b293275b4",
-    "status": "Verified"
   }
 ]
